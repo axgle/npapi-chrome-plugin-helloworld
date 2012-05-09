@@ -1,0 +1,10 @@
+{
+	"name": "npapi_helloworld",
+	"version": "1.0",
+	"background_page":"test.html",
+
+	"description": "a small helloworld example of npapi.",
+    "plugins":[
+        {"path":"plugin/npsimple.dll","public":true}
+    ]
+}
