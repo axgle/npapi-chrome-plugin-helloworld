@@ -1,3 +1,4 @@
+simple version!
 chrome-npapi-helloworld
 npapi plugin helloworld for chrome extension on windows
 
