@@ -91,8 +91,8 @@ bool ScriptablePluginObject::Invoke(NPObject* obj, NPIdentifier methodName,
   }
   if (!strcmp(name, kSayHello)) {
     ret_val = true;
-	//TODO ÊéÐ´helloworld
-	const char* outString = "hello world!\ncall from my plugin\nfrom hellohtml5.com";
+	//TODO ï¿½ï¿½Ð´helloworld
+	const char* outString = "hello world!\ncall from my plugin";
     char* npOutString = (char *)npnfuncs->memalloc(strlen(outString) + 1);
     if (!npOutString)
       return false;
